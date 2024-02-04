@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: Weelearn ::</title>
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--fullcalender css  -->
+     <link href="css/main-cal.css" rel="stylesheet" >
+    <!-- custom style css -->    
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+</head>
+<body>
+
+
+<div class="responsive-layer">
+  <div class="alert-message">
+    <p>* To become a teacher, please apply using the desktop version of <a href="#">weelearn.com</a></p>
+  </div>
+</div>
+  <section id="web-main-area">
+    <!----------- header area start--------- -->
+    <header>
+
+
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="navbar-brand">
+            <div class="logo-area">
+                <ul>
+                    <li><a href="#"> <img src="images/logo.png" alt=""></a></li>
+                </ul>
+            </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Teachers Nearby</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Language Learning</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Instrument Learning</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                  </li> 
+                  <li class="user-login">
+                    <!-- <a href="#"><img src="images/user-pic-3.jpg" alt=""></a> -->
+                    <div class="dropdown">
+                      <button class="user-icon" data-toggle="dropdown"><img src="images/user-pic-3.jpg" alt="">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">General Settings</a></li>
+                        <li><a href="#">Teachers Nearby</a></li>
+                        <li><a href="#">Language Learning</a></li>
+                        <li><a href="#">Instrument Learning</a></li>
+                        <li><a href="#">Messages</a></li>
+                        <li><a href="#">Switch to Student</a></li>
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Logout</a></li>
+
+                      </ul>
+                    </div>
+                  </li>   
+              </ul>
+            </div>  
+          </nav>
+    </header>
+        <!----------- header area close--------- -->
+    <!---------------- inner header section start------------ -->
+    <section id="breadcrumb-area">
+      <div class="breadcrumb-part part-2">
+        <h5>
+          Language Learning
+        </h5>
+        <div class="option-view">
+          <ul>
+            <li class="list-btn"><span><i class="fas fa-list-ul"></i></span>
+              List View</li>
+              <li > <img src="images/setting.png" alt="" style="width:24px;"></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+        <!---------------- inner header section close------------ -->
+       <!---------calendar sec start sec start ----------------->
+         <section id="calendar-sec">
+           <div class="calendar-area">
+            <div id='calendar'></div>
+           </div>
+         </section>
+       <!---------calendar sec start sec close ----------------->
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+<!-- jquery -->
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+<!-- fullcalender js -->
+<script src="js/main-cal.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+
+<!-- <script>
+   document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'timeGridWeek',
+      headerToolbar: {
+        left: '',
+        center: 'title',
+        right: 'prev,next'
+        
+      },
+      initialDate: '2020-06-12',
+      navLinks: true, // can click day/week names to navigate views
+      selectable: true,
+      selectMirror: true,
+      select: function(arg) {
+        var title = prompt('Event Title:');
+        if (title) {
+          calendar.addEvent({
+            title: title,
+            start: arg.start,
+            end: arg.end,
+            allDay: arg.allDay
+          })
+        }
+        calendar.unselect()
+      },
+      eventClick: function(arg) {
+        if (confirm('Are you sure you want to delete this event?')) {
+          arg.event.remove()
+        }
+      },
+      editable: true,
+      dayMaxEvents: true, // allow "more" link when too many events
+      events: [
+        {
+          title: 'Event-2',
+          start: '2020-06-07',
+          end: '2020-06-10',
+          color: '#7ec937'
+        },
+        {
+          groupId: 999,
+          title: 'Event-3',
+          start: '2020-06-09T16:00:00',
+          color: '#7ec937'
+        },
+        {
+          groupId: 999,
+          title: 'Event-4',
+          start: '2020-06-16T16:00:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-5',
+          start: '2020-06-11',
+          end: '2020-06-13',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-6',
+          start: '2020-06-12T10:30:00',
+          end: '2020-06-12T12:30:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-7',
+          start: '2020-06-12T12:00:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-8',
+          start: '2020-06-12T14:30:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-9',
+          start: '2020-06-12T17:30:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-10',
+          start: '2020-06-12T20:00:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Event-11',
+          start: '2020-06-13T07:00:00',
+          color: '#7ec937'
+        },
+        {
+          title: 'Click for Google',
+          url: 'http://google.com/',
+          start: '2020-06-28'
+        }
+      ]
+    });
+
+    calendar.render();
+  });
+
+</script> -->
+
+<script>
+  
+
+  document.addEventListener('DOMContentLoaded', function() {
+           var calendarEl = document.getElementById('calendar');
+           var calendar = new FullCalendar.Calendar(calendarEl, {
+         
+             
+             timeZone: 'UTC',
+             initialView: 'timeGridWeek',
+             headerToolbar: {
+               left: 'prev,next today',
+               center: 'title',
+               right: 'timeGridWeek,listWeek'
+             },
+            
+             events: 'https://fullcalendar.io/demo-events.json',
+             editable: true,
+          
+           });
+          
+         
+           calendar.render();
+         });
+             
+</script>
+
+</body>
+</html>

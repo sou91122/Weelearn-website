@@ -1,0 +1,242 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+    
+  
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+}
+/* Extra large devices (large desktops, 1300px and up) */
+@media (min-width: 1300px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  /* web-1 page */
+  #main-box-card .card-area1 .box-main {
+    width: 100%;
+}
+#main-box-card .card-area1 .box-info-area .info-area-1 ul li {
+    width: 31%;
+}
+#main-box-card .card-area1 .box-info-area {
+    width: 100%;
+}
+#main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group .form-control {
+    width: 400px;
+}
+#main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group.message .form-control {
+    width: 816px !important;
+}
+#main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group.language .form-control {
+    width: 816px !important;
+}
+.chosen-container {
+    widows: 400px !important;
+ }
+ header .navbar-nav .nav-item .nav-link {
+    padding: 0 25px 0 0;
+}
+#information-body-sec-1 {
+    padding: 20px 35px 64px;
+
+}
+header {
+
+    padding: 10px 50px;
+}
+#main-box-card .card-area1.area-2 .form-box-area .form-part-1 .group-box .form-group.area-2 .form-control {
+    width: 616px;
+}
+
+
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   
+    #main-box-card .card-area1 .box-card-1 {
+        padding: 10px;
+    }
+    #main-box-card .card-area1 .box-main {
+        padding: 18px 35px;
+
+    }
+
+    #main-box-card .card-area1 .box-card-1 .box-name p {
+        float: right;
+    }
+    #main-box-card .card-area1 .box-info-area .info-area-1 {
+        padding: 0px 35px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group {
+        margin-right: 0;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group.message .form-control {
+        width: 400px !important;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group.language .form-control {
+        width: 400px !important;
+    }
+    #information-body-sec-1 .right-area .learning-box .user-area-2 ul.learn-area-2 {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    #information-body-sec-1 .right-area .learning-box .user-area-2 ul.learn-area-2 li:first-child {
+        margin-right: 25px;
+    }
+}
+
+@media(max-width:768px){
+    #web-main-area{
+        display:none;
+    }
+    .responsive-layer{width: 100%; display:block;}
+
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    #main-box-card .card-area1 .box-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #main-box-card .card-area1 .box-card-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    #main-box-card .card-area1 .box-card-1 .box-name p {
+        text-align: center;
+    }
+    #main-box-card .card-area1 .box-info-area .info-area-1 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #main-box-card .card-area1 .box-info-area .info-area-1 ul li {
+        width: 100%;
+    }
+    #inner-header .page-type .back-link {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    #main-box-card .teaching-box-2 .box-area {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0 28px;
+    }
+    #main-box-card .teaching-box-2 .box-area .box-part {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+    #main-box-card .card-area1 .form-box-area .agreement-area .terms-box {
+        padding: 40px 35px;
+    }
+    .default-line-checkbox .chkbox {
+        padding: 0 35px;
+        position: relative !important;
+    }
+
+    
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group .form-control {
+        width: 250px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group.message .form-control {
+        width: 250px !important;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .short-info ul li {
+        padding: 0 35px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .form-group.language .form-control {
+        width: 250px !important;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 .profile-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 40px auto;
+        padding: 0 35px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 .profile-photo .right-area {
+        width: 100%;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 .profile-photo .left-area {
+        margin-bottom: 25px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 .button-area-2 label {
+        width: 100%;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 p {
+        padding: 0 35px 22px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 .chkbox.area-2 {
+        padding: 0px 35px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-2 .chkbox.area-2 .check {
+        position: absolute;
+        top: 3px;
+        left: 35px;
+    }
+    #main-box-card .card-area1.area-2 .form-box-area .form-part-1 .button-area-2 label {
+        width: 220px;
+    }
+
+    /* -------------- */
+    .teaching-profile-area-1 {
+        padding: 38px 35px;
+    }
+    #main-box-card .form-box-area .teaching-box-2 ul.area-1 {
+        padding: 0 35px 15px;
+    }
+    #main-box-card .form-box-area .teaching-box-2 .chkbox.area-2 {
+        padding: 0 35px;
+        position: relative;
+    }
+    #main-box-card .form-box-area .teaching-box-2 .chkbox.area-2 .check {
+        position: absolute;
+        top: 3px;
+        left: 35px;
+    }
+    #main-box-card .form-box-area .teaching-box-2 .line-2 {
+        padding: 0 35px;
+    }
+    #main-box-card .card-area1.area-2 .teaching-box-2 .add-edu {
+        padding: 0 35px;
+    }
+    .chosen-container {
+        widows: 250px !important;
+     }
+  
+}
+@media(max-width: 320px) {
+
+}
+

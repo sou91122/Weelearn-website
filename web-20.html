@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: Weelearn ::</title>
+    <!-- bootstrap css -->
+    <link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link href="css/plugins/fontawesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- custom style css -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/plugins/modernizr.js"></script>
+</head>
+<body>
+
+
+<div class="responsive-layer">
+  <div class="alert-message">
+    <p>* To become a teacher, please apply using the desktop version of <a href="#">weelearn.com</a></p>
+  </div>
+</div>
+  <section id="web-main-area">
+    <!----------- header area start--------- -->
+    <header>
+
+
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="navbar-brand">
+            <div class="logo-area">
+                <ul>
+                    <li><a href="#"> <img src="images/logo.png" alt=""></a></li>
+                </ul>
+            </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Teachers Nearby</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Language Learning</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Instrument Learning</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                  </li> 
+                  <li class="user-login">
+                    <!-- <a href="#"><img src="images/user-pic-3.jpg" alt=""></a> -->
+                    <div class="dropdown">
+                      <button class="user-icon" data-toggle="dropdown"><img src="images/user-pic-3.jpg" alt="">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">General Settings</a></li>
+                        <li><a href="#">Teachers Nearby</a></li>
+                        <li><a href="#">Language Learning</a></li>
+                        <li><a href="#">Instrument Learning</a></li>
+                        <li><a href="#">Messages</a></li>
+                        <li><a href="#">Switch to Student</a></li>
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Logout</a></li>
+
+                      </ul>
+                    </div>
+                  </li>   
+              </ul>
+            </div>  
+          </nav>
+    </header>
+        <!----------- header area close--------- -->
+    <!---------------- inner header section start------------ -->
+    <section id="breadcrumb-area">
+      <div class="breadcrumb-part">
+        <h5>
+          <a href="#">Teachers Nearby</a> > <span>Settings</span>
+         </h5>
+      </div>
+
+    </section>
+        <!---------------- inner header section close------------ -->
+          <!------------- settings main-sec start----------- -->
+          <section id="settings-main-sec">
+            <div class="container">
+              <div class="settings-main-area">
+                <div class="left-area">
+                  <div class="settings-menu">
+                    <ul>
+                      <li><a href="#">Address</a></li>
+                      <li><a href="#">Introduction Video</a></li>
+                    </ul>
+                  </div>
+                    </div>
+                    <div class="right-area">
+                      <form action="">
+                      <h5 class="menu-head">Introduction Video</h5>
+                      <div class="menu-info">
+                          
+                        <div class="videobox-area">
+                       <div class="videopart">
+                                        <a>
+                                        <img src="images/teachervideo.png" alt="">
+                                        </a>
+                                        <div class="play-btn">
+                                       <a  data-toggle="modal" data-target="#video" href="#"><img src="images/play-button.png" alt=""></a>
+                                        </div>
+                                        </div>
+                          <!-- video popup -->
+                          <div class="modal login videoupld" id="video" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                          </button>
+                                      </div>
+                                      <div class="modal-body">
+                                          <div class="videoarea">
+                                              <iframe  src="https://www.youtube.com/embed/J6MYpvOaNmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                              </div>
+                          </div>
+                            <div class="button-area-main" style="text-align: center">
+                              <div class="button-area-2">
+                                <label> Change Video
+                                    <input type="file" size="60" >
+                                    </label> 
+                        </div>
+                            </div>
+                        </div>
+
+
+                      </div>
+                    </form>
+                    </div>
+              </div>
+            </div>
+          </section>
+                    <!------------- settings main-sec close----------- -->
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+<!-- jquery -->
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/plugins/bootstrap.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>
